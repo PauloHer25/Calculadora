@@ -39,7 +39,7 @@ class MainApp(App):
                     text = label,
                     pos_hint={"center_x": 0.5, "center_y": 0.5},
                 )
-                button.bind(on_press=self.on_button_press)
+                button.bind(on_press=self.yon_button_press)
                 h_layout.add_widget(button)
             main_layout.add_widget(h_layout)
         equals_button = Button(
